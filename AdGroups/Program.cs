@@ -19,7 +19,7 @@ builder.Services.AddAuthorization(options =>
 
 builder.Services.AddRazorPages(options =>
 {
-    options.Conventions.AuthorizePage("/Privacy", AdGroupAuthorizationHandler.Policy);
+    options.Conventions.AuthorizePage("/ByConventions", AdGroupAuthorizationHandler.Policy);
 });
 
 builder.Services.AddSingleton<IAuthorizationHandler, AdGroupAuthorizationHandler>();

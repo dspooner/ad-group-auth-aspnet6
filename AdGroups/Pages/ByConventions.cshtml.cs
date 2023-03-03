@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AdGroups.Pages
 {
-    public class PrivacyModel : PageModel
+    public class ByConventionsModel : PageModel
     {
-        private readonly ILogger<PrivacyModel> _logger;
+        private readonly ILogger<ByConventionsModel> _logger;
 
-        public PrivacyModel(ILogger<PrivacyModel> logger)
+        public ByConventionsModel(ILogger<ByConventionsModel> logger)
         {
             _logger = logger;
         }
