@@ -35,6 +35,8 @@ if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
 }
+
+app.UseStatusCodePagesWithReExecute("/StatusCode/{0}");
 app.UseStaticFiles();
 
 app.UseRouting();
